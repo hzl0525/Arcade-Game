@@ -35,6 +35,7 @@ var Player = function(){
     this.speed = 233;
     this.status = 'stand';
 };
+
 Player.prototype.update = function(dt) {
     if (this.status == 'move_left') {
         this.x -= this.speed*dt;
@@ -48,13 +49,11 @@ Player.prototype.update = function(dt) {
     if (this.status == 'move_down') {
         this.y += this.speed*dt;
     }
-    if (this.x < -17) this.x = -17;  // 防止Player超出canvas左边;
-    if (this.x > 420) this.x = 420;  //防止Player超出canvas右边;
-    if (this.y > 435) this.y = 435;  //防止Player超出canvas下边;
-    if (this.y < -13) this.y = -13;  //防止Player超出canvas上边;
-    if (player.y < 0){
-        this.status = 'stand';     //防止Player越过小河时，位置不动;
-      }
+    if (player.x < -17) player.x = -17;  // 防止Player超出canvas左边;
+    if (player.x > 420) player.x = 420;  //防止Player超出canvas右边;
+    if (player.y > 435) player.y = 435;  //防止Player超出canvas下边;
+    if (player.y < -13) player.y = -13;  //防止Player超出canvas上边;
+    if (player.y < 0)   player.status = 'stand';     //防止Player越过小河时，位置不动;
 };
 
 Player.prototype.render = function(){
