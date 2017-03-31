@@ -6,7 +6,7 @@ This is a project of Udacity front-end web developer nanodegree.You will be prov
 
 **Online version**：https://hzl0525.github.io/Arcade-Game/
 ##### General Usage Notes
-* Firstly you should downloaded the files of Project 01, and open index.html to run a game.
+* Firstly you should download the files of Project 01, and open index.html to run a game.
 * Use the **arrow keys** to control up and down about player movement.
 * If you achieve the goal, click **'space'** on the keyboard to restart a game.
 ##### Game Rules:
