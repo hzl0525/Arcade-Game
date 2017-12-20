@@ -1,11 +1,11 @@
 ================================================================
 # Classic Arcade Game Clone
 ##### Project Introduction:
-This is a project of Udacity front-end web developer nanodegree.You will be provided with visual assets and a game loop engine.Openig index.html to run a game which includes the player character and enemies(bugs).
+This is a project of "Classic Arcade Game Clone". You will be provided with visual assets and a game loop engine.Downloading this project files and Openig `index.html` to run a game which includes the player character and enemies(bugs).
 
 **Online version**：https://zhonglianghu.github.io/Arcade-Game/
 ##### General Usage Notes
-* Firstly you should download the files of Project 01, and open index.html to run a game.
+* Firstly you should download the files of this project, and open `index.html` to run a game. Also you could click the link of online version to start a game.
 * Use the **arrow keys** to control up and down about player movement.
 * If you achieve the goal, click **'space'** on the keyboard to restart the game.
 ##### Game Rules:
