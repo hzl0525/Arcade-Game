@@ -1,4 +1,3 @@
-##### Udacity Front-End Web Developer Nanodegree – Project 01
 ================================================================
 # Classic Arcade Game Clone
 ##### Project Introduction:
